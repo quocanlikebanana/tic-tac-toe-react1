@@ -1,0 +1,84 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    width: 60vw;
+    height: 80vh;
+    background-color: rgb(74, 129, 111);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border: 2px rgba(67, 67, 67, 0.733) solid;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    border-style: double;
+    border-color: white;
+    border-width: 4px;
+    height: 15%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 85%;
+}
+
+.board-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    max-width: 50%;
+    max-height: 100%;
+}
+
+.side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.history-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    padding: 10px;
+}
+
+.toggle-history-order {
+    max-height: 15%;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: rgb(156, 62, 94);
+    padding: 5px 10px;
+    color: white;
+}
+
+.history-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    height: 85%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.history-item {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}

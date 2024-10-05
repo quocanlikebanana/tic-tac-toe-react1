@@ -1,0 +1,43 @@
+.square {
+    height: 100%;
+    width: 100%;
+    background: #f0f0f0;
+    border-radius: 1vmin;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.x {
+    color: #ff0000;
+}
+
+.o {
+    color: #0022ce;
+}
+
+.square:hover {
+    background: #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.square.taken {
+    cursor: not-allowed;
+}
+
+.square.win {
+    background: #ecd735;
+}
+
+.square.current {
+    background: #2dec3a;
+}
+
+.square.win.current {
+    background: #87ec35;
+}
